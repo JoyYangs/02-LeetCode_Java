@@ -1,5 +1,7 @@
 package 排序;
 
+import java.util.Arrays;
+
 /**
  * @author joyeYang
  * @date 2020-05-02 12:18
@@ -31,8 +33,15 @@ public class quickSort {
             if (l >= r) nums[l] = pivot;
         }
 
+        /** Attention: 之前把这里的参数填错了，导致了排序没有排对 **/
         quick_sort(nums, L, r-1);
         quick_sort(nums, r+1, R);
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {-4,-2,1,-5,-4,-4,4,-2,0,4,0,-2,3,1,-5,0};
+        quick_sort(arr, 0 , arr.length - 1);
+        System.out.println(Arrays.toString(arr));
     }
 
 }

@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c462b211-3cf4-466c-9bc0-f2b8940e2c68" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/java_leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/02-LeetCode_Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/字符串/T_05_最长回文子串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/字符串/T_07_整数反转.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/字符串/T_09_回文数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/数组/T_15_三数之和.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/数组/Test_Sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/排序/quickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/排序/quickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数组/T_4_寻找两个有序数组的中位数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数组/T_04_寻找两个有序数组的中位数.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,20 +19,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="insertSort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/排序/insertSort.java">
+      <file leaf-file-name="T_15_三数之和.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/数组/T_15_三数之和.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="319">
+              <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bubbleSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/排序/bubbleSort.java">
+      <file leaf-file-name="Test_合并两个有序数组.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/数组/Test_合并两个有序数组.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="28" column="61" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="61" />
+            <state relative-caret-position="-208">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T_16_最接近的三数之和.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/数组/T_16_最接近的三数之和.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T_05_最长回文子串.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/字符串/T_05_最长回文子串.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T_17_电话号码的字母组合.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/字符串/T_17_电话号码的字母组合.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quickSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/排序/quickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="912">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -46,6 +88,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sort</find>
+      <find>寻找两个有序数组的中位数</find>
+      <find>最长回文子串</find>
+      <find>整数反转</find>
+      <find>回文数</find>
+      <find>删除链表</find>
+      <find>for (int i = 0; i &lt; len; i++) {</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -57,14 +105,20 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/数组/Test_Sort.java" />
         <option value="$PROJECT_DIR$/src/排序/bubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/排序/quickSort.java" />
         <option value="$PROJECT_DIR$/src/排序/selectSort.java" />
         <option value="$PROJECT_DIR$/src/排序/mergeSort.java" />
         <option value="$PROJECT_DIR$/src/排序/insertSort.java" />
+        <option value="$PROJECT_DIR$/src/字符串/T_07_整数反转.java" />
+        <option value="$PROJECT_DIR$/src/字符串/T_09_回文数.java" />
+        <option value="$PROJECT_DIR$/src/数组/T_15_三数之和.java" />
+        <option value="$PROJECT_DIR$/src/排序/quickSort.java" />
+        <option value="$PROJECT_DIR$/src/数组/T_16_最接近的三数之和.java" />
+        <option value="$PROJECT_DIR$/src/字符串/T_05_最长回文子串.java" />
+        <option value="$PROJECT_DIR$/src/字符串/T_17_电话号码的字母组合.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="824" />
@@ -96,6 +150,12 @@
               <item name="02-LeetCode_Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="02-LeetCode_Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="字符串" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02-LeetCode_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02-LeetCode_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="排序" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -103,6 +163,25 @@
               <item name="02-LeetCode_Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="数组" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02-LeetCode_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02-LeetCode_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="数组" type="462c0819:PsiDirectoryNode" />
+              <item name="重复" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02-LeetCode_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02-LeetCode_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="栈" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02-LeetCode_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02-LeetCode_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -129,7 +208,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.insertSort">
+  <component name="RunManager" selected="Application.T_15_三数之和">
+    <configuration name="T_15_三数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="数组.T_15_三数之和" />
+      <module name="02-LeetCode_Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Test_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="数组.Test_Sort" />
       <module name="02-LeetCode_Java" />
@@ -157,6 +247,17 @@
     </configuration>
     <configuration name="mergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="排序.mergeSort" />
+      <module name="02-LeetCode_Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="quickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="排序.quickSort" />
       <module name="02-LeetCode_Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -208,9 +309,13 @@
       <item itemvalue="Application.Test_Sort" />
       <item itemvalue="Application.mergeSort" />
       <item itemvalue="Application.insertSort" />
+      <item itemvalue="Application.T_15_三数之和" />
+      <item itemvalue="Application.quickSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T_15_三数之和" />
+        <item itemvalue="Application.quickSort" />
         <item itemvalue="Application.insertSort" />
         <item itemvalue="Application.mergeSort" />
         <item itemvalue="Application.Test_Sort" />
@@ -231,7 +336,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="824" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -242,18 +347,18 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22145805" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43328747" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3287483" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287483" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31911966" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -267,6 +372,22 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/数组/T_15_三数之和.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="16" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -311,17 +432,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/排序/quickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/排序/mergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="40" column="47" lean-forward="true" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/排序/insertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -332,10 +453,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/排序/insertSort.java">
+    <entry file="file://$PROJECT_DIR$/src/数组/T_04_寻找两个有序数组的中位数.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="202">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/字符串/T_09_回文数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/字符串/T_07_整数反转.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="369" selection-start-line="369" selection-end-line="369" />
+          <folding>
+            <element signature="e#12901#12902#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="669" selection-start-line="669" selection-end-line="669" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/排序/quickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数组/Test_合并两个有序数组.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数组/T_16_最接近的三数之和.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/字符串/T_05_最长回文子串.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/字符串/T_17_电话号码的字母组合.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数组/T_15_三数之和.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

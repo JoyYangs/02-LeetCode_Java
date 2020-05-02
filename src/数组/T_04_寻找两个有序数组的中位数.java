@@ -13,7 +13,7 @@ package 数组;
  * 2- 递归+二分: 分割后中位数自然在中间的两块中
  *
  */
-public class T_4_寻找两个有序数组的中位数 {
+public class T_04_寻找两个有序数组的中位数 {
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
