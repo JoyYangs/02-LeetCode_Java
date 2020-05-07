@@ -32,6 +32,7 @@ public class T_15_三数之和 {
 
         // 遍历
         for (int i = 0; i < len; i++) {
+            // 这里用nums[i]是为了避免后面的重复计算
             if (nums[i] > 0) break;
             if (i > 0 && nums[i] == nums[i-1]) continue;
             int l = i+1, r = len - 1;
@@ -51,6 +52,7 @@ public class T_15_三数之和 {
             }
         }
 
+        System.out.println(list);
         return list;
     }
 
@@ -76,10 +78,11 @@ public class T_15_三数之和 {
     public static void main(String[] args) {
         int[] arr = {-4,-2,1,-5,-4,-4,4,-2,0,4,0,-2,3,1,-5,0};
         threeSum(arr);
+        threeSum2(arr);
     }
 
 
-    public List<List<Integer>> threeSum2(int[] nums) {
+    public static List<List<Integer>> threeSum2(int[] nums) {
 
         int len = nums.length;
         List<List<Integer>> res = new ArrayList<>();
@@ -107,6 +110,7 @@ public class T_15_三数之和 {
                 }
             }
         }
+        System.out.println(res);
         return res;
     }
 }

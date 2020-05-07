@@ -14,6 +14,7 @@ import java.util.Arrays;
  */
 public class mergeSort {
 
+    // 从后往前遍历也可以
     public static int[] merge_sort(int[] nums1, int[] nums2) {
         int i = 0, j = 0, k = 0;
         int len1 = nums1.length, len2 = nums2.length;
@@ -22,11 +23,11 @@ public class mergeSort {
         while (i < len1 || j < len2) {
             if (i < len1 && j < len2) {
                 if (nums1[i] <= nums2[j]) {
-                    nums[k] = nums1[i++];
+                    nums[k++] = nums1[i++];
                 } else {
-                    nums[k] = nums2[j++];
+                    nums[k++] = nums2[j++];
                 }
-                k++;
+//                k++;
             } else if (i < len1) {
                 nums[k++] = nums1[i++];
             } else {

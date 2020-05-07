@@ -26,8 +26,24 @@ public class T_07_整数反转 {
         return res;
     }
 
+    public int reverse3(int x) {
+        int res = 0;
+        while (x != 0) {
+            int pop = x % 10;
+            // 或者这样也可以：
+//            if ((pop < 0 && res < (Integer.MIN_VALUE - pop) / 10) || (pop > 0 && res > (Integer.MAX_VALUE - pop) / 10)) {
+//                return 0;
+//            }
+            if (res > Integer.MAX_VALUE / 10 || (res == Integer.MAX_VALUE/10 && pop > 7)) return 0;
+            if (res < Integer.MIN_VALUE / 10 || (res == Integer.MIN_VALUE/10 && pop < -8)) return 0;
+            res = res * 10 + pop;
+            x /= 10;
+        }
+        return res;
+    }
 
-    // 笨办法
+
+    // 笨办法：不要考虑字符串，数字问题就用算术来处理
     public int reverse2(int x) {
 
         int sign = x < 0 ? -1 : 1;

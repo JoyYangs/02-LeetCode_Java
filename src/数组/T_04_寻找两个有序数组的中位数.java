@@ -1,5 +1,7 @@
 package 数组;
 
+import java.util.Arrays;
+
 /**
  * @author joyeYang
  * @date 2020-04-12 22:35
@@ -15,7 +17,7 @@ package 数组;
  */
 public class T_04_寻找两个有序数组的中位数 {
 
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+    public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
         if (nums1 == null) return nums2[nums2.length / 2];
         if (nums2 == null) return nums1[nums1.length / 2];
@@ -59,6 +61,45 @@ public class T_04_寻找两个有序数组的中位数 {
             }
         }
         return 0.0;
+    }
+
+    // 合并数组找中位数
+    public static int[] mergeTwoSortedArray(int[] nums1, int[] nums2) {
+        int[] nums = new int[nums1.length + nums2.length];
+        int i = nums1.length - 1;
+        int j = nums2.length - 1;
+        int k = nums1.length + nums2.length - 1;
+        while (i >= 0 || j >= 0) {
+            if (i >= 0 &&  j >= 0) {
+                if (nums1[i] >= nums2[j]) {
+                    nums[k--] = nums1[i--];
+                }else {
+                    nums[k--] = nums2[j--];
+                }
+            }else if (i >= 0) {
+                nums[k--] = nums1[i--];
+            }else {
+                nums[k--] = nums2[j--];
+            }
+        }
+        return nums;
+    }
+
+    public static double findMedian(int[] nums1, int[] nums2) {
+        int[] mergedNums = mergeTwoSortedArray(nums1, nums2);
+        int len = mergedNums.length;
+        System.out.println(Arrays.toString(mergedNums));
+        if (len % 2 != 0) return mergedNums[len/2];
+        else {
+            return (double)(mergedNums[len/2] + mergedNums[len/2-1])/2;
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] nums1 = {1,3,5,7,9,11,13,15,17};
+        int[] nums2 = {2,4,6,8,10,20};
+        System.out.println(findMedian(nums1,nums2));
+        System.out.println(findMedianSortedArrays(nums1, nums2));
     }
 
 }
